@@ -1,0 +1,37 @@
+export const SITE_CONFIG = {
+  name: "A Plumber Service",
+  tagline: "Houston's Premier Plumbing & Home Remodeling Experts",
+  phone: "7139556664",
+  phoneFormatted: "(713) 955-6664",
+  phoneHref: "tel:+17139556664",
+  email: "ronnie@aplumberservice.com",
+  address: {
+    street: "2406 Wheeler Ave",
+    city: "Houston",
+    state: "TX",
+    zip: "77004",
+    full: "2406 Wheeler Ave, Houston, TX 77004",
+  },
+  geo: {
+    latitude: 29.7355,
+    longitude: -95.3698,
+  },
+  url: "https://aplumberservice.com",
+  social: {
+    facebook: "https://facebook.com/aplumberservice",
+    instagram: "https://instagram.com/aplumberservice",
+    google: "https://g.page/aplumberservice",
+  },
+  hours: {
+    weekdays: "Mon–Fri: 8:00 AM – 6:00 PM",
+    saturday: "Sat: 9:00 AM – 4:00 PM",
+    sunday: "Sun: Emergency Only",
+  },
+  license: "Licensed & Insured in Texas",
+  founded: "2004",
+  yearsInBusiness: "20+",
+  projectsCompleted: "5,000+",
+  citiesServed: "32",
+  rating: "4.9",
+  reviewCount: "500+",
+} as const;
