@@ -52,16 +52,14 @@ export default function Header() {
           <div className="flex items-center justify-between">
             {/* Logo */}
             <Link href="/" className="flex items-center group">
-              <div className="bg-white rounded-lg px-2.5 py-1.5 group-hover:bg-gray-50 transition-colors">
-                <Image
-                  src="/logo.png"
-                  alt="A Plumber Service — Houston TX"
-                  width={130}
-                  height={71}
-                  priority
-                  className="block"
-                />
-              </div>
+              <Image
+                src="/logo.png"
+                alt="A Plumber Service — Houston TX"
+                width={150}
+                height={51}
+                priority
+                className="block group-hover:opacity-90 transition-opacity"
+              />
             </Link>
 
             {/* Desktop Nav */}

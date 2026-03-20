@@ -19,16 +19,14 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Column 1: Brand */}
           <div className="lg:col-span-1">
-            <Link href="/" className="block mb-4">
-              <div className="bg-white rounded-lg px-3 py-2 inline-block">
-                <Image
-                  src="/logo.png"
-                  alt="A Plumber Service — Houston TX"
-                  width={150}
-                  height={82}
-                  className="block"
-                />
-              </div>
+            <Link href="/" className="block mb-4 hover:opacity-90 transition-opacity">
+              <Image
+                src="/logo.png"
+                alt="A Plumber Service — Houston TX"
+                width={160}
+                height={54}
+                className="block"
+              />
             </Link>
             <p className="text-white/60 text-sm leading-relaxed mb-6">
               Houston&apos;s trusted licensed plumbers since {SITE_CONFIG.founded}. Emergency plumbing, drain cleaning, water heaters, leak detection & sewer services across 32 communities.
