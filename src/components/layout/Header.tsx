@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { Menu, X, Phone, ChevronDown } from "lucide-react";
 import { SITE_CONFIG } from "@/data/site-config";
@@ -50,14 +51,16 @@ export default function Header() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between">
             {/* Logo */}
-            <Link href="/" className="flex items-center gap-3 group">
-              <div className="flex flex-col">
-                <span className="text-white font-serif text-xl font-bold leading-tight group-hover:text-gold transition-colors">
-                  A Plumber Service
-                </span>
-                <span className="text-gold text-xs font-sans tracking-wider uppercase">
-                  Houston, Texas
-                </span>
+            <Link href="/" className="flex items-center group">
+              <div className="bg-white rounded-lg px-2.5 py-1.5 group-hover:bg-gray-50 transition-colors">
+                <Image
+                  src="/logo.png"
+                  alt="A Plumber Service — Houston TX"
+                  width={130}
+                  height={71}
+                  priority
+                  className="block"
+                />
               </div>
             </Link>
 

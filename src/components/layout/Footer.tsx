@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Phone, Mail, MapPin, Clock, Facebook, Instagram, Star } from "lucide-react";
 import { SITE_CONFIG } from "@/data/site-config";
 import { services } from "@/data/services";
@@ -19,8 +20,15 @@ export default function Footer() {
           {/* Column 1: Brand */}
           <div className="lg:col-span-1">
             <Link href="/" className="block mb-4">
-              <span className="text-white font-serif text-2xl font-bold block">A Plumber Service</span>
-              <span className="text-gold text-sm font-sans tracking-wider uppercase">Houston, Texas</span>
+              <div className="bg-white rounded-lg px-3 py-2 inline-block">
+                <Image
+                  src="/logo.png"
+                  alt="A Plumber Service — Houston TX"
+                  width={150}
+                  height={82}
+                  className="block"
+                />
+              </div>
             </Link>
             <p className="text-white/60 text-sm leading-relaxed mb-6">
               Houston&apos;s trusted licensed plumbers since {SITE_CONFIG.founded}. Emergency plumbing, drain cleaning, water heaters, leak detection & sewer services across 32 communities.

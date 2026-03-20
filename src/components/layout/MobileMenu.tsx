@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { X, Phone, ChevronDown, ChevronUp } from "lucide-react";
 import { SITE_CONFIG } from "@/data/site-config";
 import { services } from "@/data/services";
@@ -32,7 +33,15 @@ export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
       <div className="absolute right-0 top-0 h-full w-full max-w-sm bg-navy shadow-2xl overflow-y-auto">
         {/* Header */}
         <div className="flex items-center justify-between p-4 border-b border-white/10">
-          <span className="text-white font-serif text-lg font-bold">A Plumber Service</span>
+          <div className="bg-white rounded-lg px-2 py-1.5">
+            <Image
+              src="/logo.png"
+              alt="A Plumber Service"
+              width={110}
+              height={60}
+              className="block"
+            />
+          </div>
           <button
             onClick={onClose}
             className="text-white/80 hover:text-white p-1"
