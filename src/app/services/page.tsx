@@ -18,10 +18,10 @@ export default function ServicesPage() {
       <BreadcrumbSchema items={[{ name: "Services", href: "/services" }]} />
 
       <HeroSection
-        headline="Expert Home Remodeling & Plumbing Services in Houston, TX"
-        subheadline="A Plumber Service offers comprehensive plumbing and home remodeling solutions across 32 Houston-area communities. Licensed, insured, and committed to excellence."
-        imageId="photo-1484154218962-a197022b5858"
-        imageAlt="Professional home remodeling services in Houston Texas"
+        headline="Expert Plumbing Services in Houston, TX"
+        subheadline="A Plumber Service offers comprehensive plumbing solutions across 32 Houston-area communities. Licensed, insured, and committed to excellence."
+        imageId="photo-1504307651254-35680f356dfd"
+        imageAlt="Professional plumbing services in Houston Texas"
         minHeight="min-h-[60vh]"
         overlay={65}
         badges={["Licensed & Insured", "Free Estimates", "32 Cities Served"]}
@@ -40,7 +40,7 @@ export default function ServicesPage() {
             <h2 className="font-serif text-4xl font-bold text-navy mb-4">Our Services</h2>
             <div className="w-16 h-0.5 bg-gold mx-auto mb-5" />
             <p className="text-gray-600 max-w-2xl mx-auto">
-              From plumbing repairs to complete home transformations, A Plumber Service delivers superior craftsmanship at every level of investment.
+              From emergency plumbing response to complete sewer replacements, A Plumber Service delivers expert plumbing solutions for every Houston homeowner.
             </p>
           </div>
 

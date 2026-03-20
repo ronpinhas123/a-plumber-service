@@ -5,13 +5,13 @@ import { getServiceBySlug } from "@/data/services";
 import ServicePageTemplate from "@/components/sections/ServicePageTemplate";
 
 export async function generateMetadata(): Promise<Metadata> {
-  const service = getServiceBySlug("home-additions");
+  const service = getServiceBySlug("drain-cleaning");
   if (!service) return {};
   return buildServiceMetadata(service);
 }
 
-export default function HomeAdditionsPage() {
-  const service = getServiceBySlug("home-additions");
+export default function DrainCleaningPage() {
+  const service = getServiceBySlug("drain-cleaning");
   if (!service) return notFound();
   return <ServicePageTemplate service={service} />;
 }

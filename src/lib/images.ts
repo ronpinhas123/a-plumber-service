@@ -17,18 +17,18 @@ export const BLUR_PLACEHOLDER =
 export const images = {
   // Hero Images
   homeHero: {
-    id: "photo-1556909114-f6e7ad7d3136",
-    alt: "Luxury modern kitchen remodel with white cabinets and quartz countertops",
+    id: "photo-1504307651254-35680f356dfd",
+    alt: "Professional plumber working on pipes in Houston TX",
     credit: "Unsplash",
   },
   servicesHero: {
-    id: "photo-1484154218962-a197022b5858",
-    alt: "Beautiful luxury home in Houston Texas",
+    id: "photo-1504307651254-35680f356dfd",
+    alt: "Expert plumbing services in Houston Texas",
     credit: "Unsplash",
   },
   aboutHero: {
     id: "photo-1581578731548-c64695cc6952",
-    alt: "Professional plumber and remodeling team in Houston TX",
+    alt: "A Plumber Service team of licensed plumbers in Houston TX",
     credit: "Unsplash",
   },
   contactHero: {
@@ -43,46 +43,46 @@ export const images = {
   },
   testimonialsHero: {
     id: "photo-1560185007-cde436f6a4d0",
-    alt: "Happy Houston homeowners after home remodel",
+    alt: "Happy Houston homeowners after plumbing service",
     credit: "Unsplash",
   },
   blogHero: {
-    id: "photo-1484154218962-a197022b5858",
-    alt: "Home remodeling and plumbing blog Houston TX",
+    id: "photo-1581578731548-c64695cc6952",
+    alt: "Plumbing tips and advice blog for Houston homeowners",
     credit: "Unsplash",
   },
 
   // Service Images
-  kitchenRemodeling: {
-    id: "photo-1556909114-f6e7ad7d3136",
-    alt: "Modern kitchen remodel with custom cabinets and quartz countertops in Houston",
+  emergencyPlumbing: {
+    id: "photo-1504307651254-35680f356dfd",
+    alt: "Emergency plumbing service in Houston TX",
     credit: "Unsplash",
   },
-  bathroomRemodeling: {
-    id: "photo-1552321554-5fefe8c9ef14",
-    alt: "Luxury bathroom remodel with marble tile and freestanding tub in Houston",
+  drainCleaning: {
+    id: "photo-1581578731548-c64695cc6952",
+    alt: "Professional drain cleaning service in Houston TX",
     credit: "Unsplash",
   },
-  flooringInstallation: {
-    id: "photo-1558618666-fcd25c85cd64",
-    alt: "Beautiful hardwood floor installation in Houston home",
+  waterHeaterServices: {
+    id: "photo-1504307651254-35680f356dfd",
+    alt: "Water heater installation and repair in Houston TX",
     credit: "Unsplash",
   },
-  homeAdditions: {
-    id: "photo-1484154218962-a197022b5858",
-    alt: "Custom home addition and room extension in Houston Texas",
+  leakDetection: {
+    id: "photo-1581578731548-c64695cc6952",
+    alt: "Leak detection and pipe repair in Houston TX",
     credit: "Unsplash",
   },
-  outdoorLiving: {
-    id: "photo-1558618047-3c8c76ca7d13",
-    alt: "Beautiful outdoor patio and pergola with outdoor kitchen in Houston",
+  sewerPipeServices: {
+    id: "photo-1504307651254-35680f356dfd",
+    alt: "Sewer line repair and pipe services in Houston TX",
     credit: "Unsplash",
   },
 
   // Team & Trust Images
   team: {
     id: "photo-1581578731548-c64695cc6952",
-    alt: "A Plumber Service team of professional plumbers and remodelers in Houston TX",
+    alt: "A Plumber Service team of licensed plumbers in Houston TX",
     credit: "Unsplash",
   },
   owner: {
@@ -96,35 +96,35 @@ export const images = {
     credit: "Unsplash",
   },
 
-  // Before/After Gallery
-  kitchenBefore: {
-    id: "photo-1556909172-54557c7e4fb7",
-    alt: "Kitchen before remodeling in Houston home",
+  // Project Gallery
+  pipeBefore: {
+    id: "photo-1581578731548-c64695cc6952",
+    alt: "Damaged pipes before repair by A Plumber Service Houston",
     credit: "Unsplash",
   },
-  kitchenAfter: {
-    id: "photo-1556909114-f6e7ad7d3136",
-    alt: "Kitchen after beautiful remodeling by A Plumber Service Houston",
+  pipeAfter: {
+    id: "photo-1581578731548-c64695cc6952",
+    alt: "New pipes after repair by A Plumber Service Houston",
     credit: "Unsplash",
   },
-  bathroomBefore: {
-    id: "photo-1552321554-5fefe8c9ef14",
-    alt: "Bathroom before renovation in Houston home",
+  drainBefore: {
+    id: "photo-1504307651254-35680f356dfd",
+    alt: "Clogged drain before cleaning in Houston home",
     credit: "Unsplash",
   },
-  bathroomAfter: {
-    id: "photo-1552321554-5fefe8c9ef14",
-    alt: "Luxury bathroom after full renovation by A Plumber Service",
+  drainAfter: {
+    id: "photo-1504307651254-35680f356dfd",
+    alt: "Clear drain after professional cleaning by A Plumber Service",
     credit: "Unsplash",
   },
-  flooringBefore: {
-    id: "photo-1558618666-fcd25c85cd64",
-    alt: "Old flooring before replacement in Houston home",
+  waterHeaterBefore: {
+    id: "photo-1504307651254-35680f356dfd",
+    alt: "Old water heater before replacement in Houston home",
     credit: "Unsplash",
   },
-  flooringAfter: {
-    id: "photo-1558618666-fcd25c85cd64",
-    alt: "New luxury hardwood floors installed by A Plumber Service Houston",
+  waterHeaterAfter: {
+    id: "photo-1504307651254-35680f356dfd",
+    alt: "New water heater installed by A Plumber Service Houston",
     credit: "Unsplash",
   },
 
@@ -146,29 +146,29 @@ export const images = {
   },
 
   // Blog Images
-  blogPlumbing: {
+  blogEmergencyPlumbing: {
     id: "photo-1581578731548-c64695cc6952",
     alt: "Emergency plumbing services in Houston TX",
     credit: "Unsplash",
   },
-  blogKitchen: {
-    id: "photo-1556909114-f6e7ad7d3136",
-    alt: "Kitchen remodeling trends Houston 2025",
+  blogDrainCleaning: {
+    id: "photo-1504307651254-35680f356dfd",
+    alt: "Drain cleaning tips for Houston homeowners",
     credit: "Unsplash",
   },
-  blogBathroom: {
-    id: "photo-1552321554-5fefe8c9ef14",
-    alt: "Bathroom remodeling cost guide Houston TX",
+  blogWaterHeater: {
+    id: "photo-1504307651254-35680f356dfd",
+    alt: "Water heater maintenance guide Houston TX",
     credit: "Unsplash",
   },
-  blogFlooring: {
-    id: "photo-1558618666-fcd25c85cd64",
-    alt: "Flooring installation guide for Houston homes",
+  blogSlabLeak: {
+    id: "photo-1581578731548-c64695cc6952",
+    alt: "Slab leak detection and repair in Houston TX",
     credit: "Unsplash",
   },
-  blogOutdoor: {
-    id: "photo-1558618047-3c8c76ca7d13",
-    alt: "Outdoor living spaces Houston Texas home value",
+  blogPipeMaintenance: {
+    id: "photo-1504307651254-35680f356dfd",
+    alt: "Houston home plumbing maintenance guide",
     credit: "Unsplash",
   },
 } as const;

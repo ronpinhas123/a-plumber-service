@@ -1,4 +1,4 @@
-import { Shield, Users, Clock, ThumbsUp, Award, Wrench } from "lucide-react";
+import { Shield, Users, Clock, ThumbsUp, Award, Zap } from "lucide-react";
 import SectionHeading from "@/components/ui/SectionHeading";
 import { SITE_CONFIG } from "@/data/site-config";
 
@@ -11,17 +11,17 @@ const reasons = [
   {
     icon: Users,
     title: "20+ Years Serving Houston",
-    description: "Since 2004, A Plumber Service has been Houston's trusted name in plumbing and home remodeling. Thousands of satisfied homeowners can't be wrong.",
+    description: "Since 2004, A Plumber Service has been Houston's trusted name in plumbing. Thousands of satisfied homeowners can't be wrong.",
   },
   {
     icon: Award,
-    title: "Expert Craftsmen Only",
-    description: "Every project is handled by skilled professionals — never subcontractors of unknown quality. We stand behind every nail, tile, and pipe joint we install.",
+    title: "Licensed Plumbers Only",
+    description: "Every job is handled by licensed, experienced plumbers — never handymen or unskilled labor. We stand behind every repair and installation we perform.",
   },
   {
     icon: Clock,
-    title: "On Time, Every Time",
-    description: "We respect your time and your home. Strict schedules, daily cleanup, and clear communication mean your project runs smoothly from day one to completion.",
+    title: "Fast Response Times",
+    description: "We respect your time and your home. Same-day service available for emergencies, with clear arrival windows and communication from start to finish.",
   },
   {
     icon: ThumbsUp,
@@ -29,9 +29,9 @@ const reasons = [
     description: "Free detailed estimates with no hidden fees. Our itemized quotes tell you exactly what you're paying for before work begins. No surprises, ever.",
   },
   {
-    icon: Wrench,
-    title: "One Call, Complete Solutions",
-    description: "As both licensed plumbers and home remodelers, we handle every trade in-house. One contractor, one project manager, one point of accountability.",
+    icon: Zap,
+    title: "24/7 Emergency Service",
+    description: "Plumbing emergencies don't keep business hours. A Plumber Service is available around the clock for burst pipes, sewage backups, and flooding.",
   },
 ];
 

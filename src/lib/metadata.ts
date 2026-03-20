@@ -54,10 +54,10 @@ export function buildBaseMetadata(
 
 export function buildHomeMetadata(): Metadata {
   return buildBaseMetadata(
-    `Plumber & Home Remodeling Houston TX | ${SITE_CONFIG.name}`,
-    `Houston's trusted plumbing and home remodeling experts. Kitchen, bathroom, flooring, home additions & outdoor living. Serving 32 cities. Call ${SITE_CONFIG.phoneFormatted} for a free estimate.`,
+    `Plumber Houston TX | ${SITE_CONFIG.name}`,
+    `Houston's trusted licensed plumbers. Emergency plumbing, drain cleaning, water heater services, leak detection & sewer repairs. Serving 32 cities. Call ${SITE_CONFIG.phoneFormatted}.`,
     "/",
-    "photo-1556909114-f6e7ad7d3136"
+    "photo-1504307651254-35680f356dfd"
   );
 }
 
@@ -72,7 +72,7 @@ export function buildServiceMetadata(service: Service): Metadata {
 
 export function buildCityMetadata(city: City): Metadata {
   return buildBaseMetadata(
-    `Plumber & Remodeling ${city.name}, TX | ${SITE_CONFIG.name}`,
+    `Plumber ${city.name}, TX | ${SITE_CONFIG.name}`,
     city.metaDescription,
     `/service-areas/${city.slug}`,
     city.heroImageId
@@ -111,8 +111,8 @@ export function buildBlogMetadata(post: BlogPost): Metadata {
 
 export function buildAboutMetadata(): Metadata {
   return buildBaseMetadata(
-    `About Us - Houston Plumber & Remodeling | ${SITE_CONFIG.name}`,
-    `Meet the A Plumber Service team — Houston's trusted plumbing and home remodeling experts with 20+ years of experience. Licensed, insured, and committed to excellence.`,
+    `About Us - Houston Licensed Plumbers | ${SITE_CONFIG.name}`,
+    `Meet the A Plumber Service team — Houston's trusted licensed plumbers with 20+ years of experience. Licensed, insured, and committed to excellence.`,
     "/about",
     "photo-1581578731548-c64695cc6952"
   );
@@ -121,7 +121,7 @@ export function buildAboutMetadata(): Metadata {
 export function buildContactMetadata(): Metadata {
   return buildBaseMetadata(
     `Contact Us | ${SITE_CONFIG.name} ${SITE_CONFIG.phoneFormatted}`,
-    `Contact A Plumber Service for plumbing and home remodeling in Houston, TX. Call ${SITE_CONFIG.phoneFormatted}, email us, or fill out our contact form for a free estimate.`,
+    `Contact A Plumber Service for plumbing services in Houston, TX. Call ${SITE_CONFIG.phoneFormatted}, email us, or fill out our contact form for a free estimate.`,
     "/contact"
   );
 }
@@ -129,7 +129,7 @@ export function buildContactMetadata(): Metadata {
 export function buildTestimonialsMetadata(): Metadata {
   return buildBaseMetadata(
     `Customer Reviews & Testimonials | ${SITE_CONFIG.name} Houston`,
-    `Read what Houston homeowners say about A Plumber Service. Hundreds of 5-star reviews for plumbing and home remodeling across the Houston metro area.`,
+    `Read what Houston homeowners say about A Plumber Service. Hundreds of 5-star reviews for plumbing services across the Houston metro area.`,
     "/testimonials",
     "photo-1560185007-cde436f6a4d0"
   );
@@ -137,19 +137,19 @@ export function buildTestimonialsMetadata(): Metadata {
 
 export function buildBlogIndexMetadata(): Metadata {
   return buildBaseMetadata(
-    `Plumbing & Remodeling Blog Houston TX | ${SITE_CONFIG.name}`,
-    `Expert tips, cost guides, and home improvement advice from A Plumber Service — Houston's trusted plumbing and remodeling professionals.`,
+    `Plumbing Tips & Advice Houston TX | ${SITE_CONFIG.name}`,
+    `Expert plumbing tips, cost guides, and maintenance advice from A Plumber Service — Houston's trusted licensed plumbers.`,
     "/blog",
-    "photo-1484154218962-a197022b5858"
+    "photo-1581578731548-c64695cc6952"
   );
 }
 
 export function buildServicesIndexMetadata(): Metadata {
   return buildBaseMetadata(
-    `Our Services | ${SITE_CONFIG.name} Houston TX`,
-    `A Plumber Service offers kitchen remodeling, bathroom remodeling, flooring installation, home additions, and outdoor living services across Houston and 32 surrounding cities.`,
+    `Plumbing Services Houston TX | ${SITE_CONFIG.name}`,
+    `A Plumber Service offers emergency plumbing, drain cleaning, water heater services, leak detection, and sewer & pipe services across Houston and 32 surrounding cities.`,
     "/services",
-    "photo-1484154218962-a197022b5858"
+    "photo-1504307651254-35680f356dfd"
   );
 }
 

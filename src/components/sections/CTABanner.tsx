@@ -9,8 +9,8 @@ interface CTABannerProps {
 }
 
 export default function CTABanner({
-  title = "Ready to Transform Your Houston Home?",
-  subtitle = "Get a free, no-obligation estimate from Houston's most trusted plumbing and home remodeling team.",
+  title = "Need a Plumber in Houston?",
+  subtitle = "Get a free, no-obligation estimate from Houston's most trusted licensed plumbing team.",
   primaryCta = { label: "Get Your Free Estimate", href: "/contact" },
 }: CTABannerProps) {
   return (

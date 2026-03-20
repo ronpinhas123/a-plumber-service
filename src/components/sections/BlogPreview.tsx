@@ -15,8 +15,8 @@ export default function BlogPreview() {
         <div className="mb-14">
           <SectionHeading
             eyebrow="Our Blog"
-            title="Expert Plumbing & Remodeling Advice"
-            subtitle="Tips, cost guides, and home improvement insights from Houston's most trusted plumbing and remodeling professionals."
+            title="Expert Plumbing Advice for Houston Homeowners"
+            subtitle="Tips, cost guides, and plumbing insights from Houston's most trusted licensed plumbers."
           />
         </div>
 

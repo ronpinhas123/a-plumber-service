@@ -11,7 +11,7 @@ export default function ServiceAreasGrid() {
           <SectionHeading
             eyebrow="Where We Work"
             title="Serving 32+ Houston Area Communities"
-            subtitle="A Plumber Service provides expert plumbing and home remodeling across the greater Houston metropolitan area. Find your city below."
+            subtitle="A Plumber Service provides expert plumbing services across the greater Houston metropolitan area. Find your city below."
           />
         </div>
 

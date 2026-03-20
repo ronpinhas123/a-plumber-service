@@ -1,6 +1,6 @@
 export const SITE_CONFIG = {
   name: "A Plumber Service",
-  tagline: "Houston's Premier Plumbing & Home Remodeling Experts",
+  tagline: "Houston's Premier Plumbing Experts",
   phone: "7139556664",
   phoneFormatted: "(713) 955-6664",
   phoneHref: "tel:+17139556664",

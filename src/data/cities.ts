@@ -15,7 +15,7 @@ export const cities: City[] = [
     nearbyCities: ["The Woodlands", "Tomball", "Cypress"],
     heroImageId: "photo-1570129477492-45c003edd2be",
     description: "Spring is a thriving suburban community in northern Harris County, known for its excellent schools, family-friendly neighborhoods, and beautiful green spaces along Spring Creek.",
-    metaDescription: "A Plumber Service provides expert plumbing and home remodeling in Spring, TX. Serving zip codes 77373, 77379, 77380, 77381, 77382. Free estimates — call (713) 955-6664.",
+    metaDescription: "A Plumber Service provides expert plumbing services in Spring, TX. Serving zip codes 77373, 77379, 77380, 77381, 77382. Free estimates — call (713) 955-6664.",
   },
   {
     name: "Sugar Land",
@@ -31,7 +31,7 @@ export const cities: City[] = [
     nearbyCities: ["Missouri City", "Richmond", "Rosenberg"],
     heroImageId: "photo-1600596542815-ffad4c1539a9",
     description: "Sugar Land is one of the most prosperous cities in Texas, offering master-planned communities, top-rated schools, and a high quality of life just southwest of Houston.",
-    metaDescription: "A Plumber Service offers expert plumbing and home remodeling in Sugar Land, TX. Serving zip codes 77478, 77479, 77487, 77496, 77498. Call (713) 955-6664 for a free estimate.",
+    metaDescription: "A Plumber Service offers expert plumbing services in Sugar Land, TX. Serving zip codes 77478, 77479, 77487, 77496, 77498. Call (713) 955-6664 for a free estimate.",
   },
   {
     name: "Missouri City",
@@ -47,7 +47,7 @@ export const cities: City[] = [
     nearbyCities: ["Sugar Land", "Pearland", "Richmond"],
     heroImageId: "photo-1480074568708-e7b720bb3f09",
     description: "Missouri City is a diverse, fast-growing suburb in Fort Bend County offering beautiful master-planned communities and convenient access to Houston.",
-    metaDescription: "A Plumber Service provides plumbing and home remodeling services in Missouri City, TX. Serving zip codes 77459, 77489, 77545. Call (713) 955-6664 today.",
+    metaDescription: "A Plumber Service provides plumbing services services in Missouri City, TX. Serving zip codes 77459, 77489, 77545. Call (713) 955-6664 today.",
   },
   {
     name: "Richmond",
@@ -63,7 +63,7 @@ export const cities: City[] = [
     nearbyCities: ["Rosenberg", "Sugar Land", "Fulshear"],
     heroImageId: "photo-1570129477492-45c003edd2be",
     description: "Richmond is the historic county seat of Fort Bend County, blending small-town charm with modern amenities and stunning views along the Brazos River.",
-    metaDescription: "A Plumber Service offers plumbing and remodeling services in Richmond, TX. Serving zip codes 77406, 77407, 77469. Free estimates — call (713) 955-6664.",
+    metaDescription: "A Plumber Service offers plumbing services services in Richmond, TX. Serving zip codes 77406, 77407, 77469. Free estimates — call (713) 955-6664.",
   },
   {
     name: "Rosenberg",
@@ -79,7 +79,7 @@ export const cities: City[] = [
     nearbyCities: ["Richmond", "Sugar Land", "Needville"],
     heroImageId: "photo-1480074568708-e7b720bb3f09",
     description: "Rosenberg is a welcoming city in Fort Bend County with a rich railroad history, growing residential communities, and easy access to Houston via US-59.",
-    metaDescription: "A Plumber Service provides plumbing and home remodeling in Rosenberg, TX (zip 77471). Expert service at fair prices. Call (713) 955-6664 for a free estimate.",
+    metaDescription: "A Plumber Service provides plumbing services in Rosenberg, TX (zip 77471). Expert service at fair prices. Call (713) 955-6664 for a free estimate.",
   },
   {
     name: "Katy",
@@ -95,7 +95,7 @@ export const cities: City[] = [
     nearbyCities: ["Cypress", "Fulshear", "Houston Energy Corridor"],
     heroImageId: "photo-1600596542815-ffad4c1539a9",
     description: "Katy is a vibrant suburb on the western edge of Houston, renowned for its exceptional schools, beautiful master-planned communities, and booming retail district.",
-    metaDescription: "Expert plumbing and home remodeling in Katy, TX. A Plumber Service serves zip codes 77450, 77493, 77494, and more. Call (713) 955-6664 for a free estimate.",
+    metaDescription: "Expert plumbing services in Katy, TX. A Plumber Service serves zip codes 77450, 77493, 77494, and more. Call (713) 955-6664 for a free estimate.",
   },
   {
     name: "Fulshear",
@@ -111,7 +111,7 @@ export const cities: City[] = [
     nearbyCities: ["Katy", "Richmond", "Rosenberg"],
     heroImageId: "photo-1570129477492-45c003edd2be",
     description: "Fulshear is one of the fastest-growing cities in America, offering luxury master-planned communities, pristine green spaces, and an upscale small-town feel.",
-    metaDescription: "A Plumber Service serves Fulshear, TX (zip 77441) with expert plumbing and remodeling. Call (713) 955-6664 for a free estimate from your local pros.",
+    metaDescription: "A Plumber Service serves Fulshear, TX (zip 77441) with expert plumbing services. Call (713) 955-6664 for a free estimate from your local pros.",
   },
   {
     name: "Cypress",
@@ -127,7 +127,7 @@ export const cities: City[] = [
     nearbyCities: ["Tomball", "Katy", "Spring"],
     heroImageId: "photo-1480074568708-e7b720bb3f09",
     description: "Cypress is a large unincorporated community in northwest Harris County, offering beautiful lakeside communities, excellent Cy-Fair ISD schools, and easy freeway access.",
-    metaDescription: "Professional plumbing and home remodeling in Cypress, TX. A Plumber Service serves 77429 and 77433. Call (713) 955-6664 for same-day estimates.",
+    metaDescription: "Professional plumbing services in Cypress, TX. A Plumber Service serves 77429 and 77433. Call (713) 955-6664 for same-day estimates.",
   },
   {
     name: "Tomball",
@@ -143,7 +143,7 @@ export const cities: City[] = [
     nearbyCities: ["Cypress", "Spring", "Magnolia"],
     heroImageId: "photo-1600596542815-ffad4c1539a9",
     description: "Tomball is a charming city in northwest Harris County with a rich German heritage, boutique antique district, and strong community spirit that draws families from across the region.",
-    metaDescription: "A Plumber Service offers expert plumbing and remodeling in Tomball, TX. Serving zip codes 77375 and 77377. Call (713) 955-6664 for a free estimate today.",
+    metaDescription: "A Plumber Service offers expert plumbing services in Tomball, TX. Serving zip codes 77375 and 77377. Call (713) 955-6664 for a free estimate today.",
   },
   {
     name: "Magnolia",
@@ -159,7 +159,7 @@ export const cities: City[] = [
     nearbyCities: ["Tomball", "Hockley", "The Woodlands"],
     heroImageId: "photo-1570129477492-45c003edd2be",
     description: "Magnolia is a peaceful community in Montgomery County known for its small-town charm, newer construction homes, and easy access to The Woodlands and Houston.",
-    metaDescription: "A Plumber Service provides plumbing and home remodeling in Magnolia, TX (77353, 77354). Call (713) 955-6664 — your trusted local contractor.",
+    metaDescription: "A Plumber Service provides plumbing services in Magnolia, TX (77353, 77354). Call (713) 955-6664 — your trusted local contractor.",
   },
   {
     name: "Hockley",
@@ -175,7 +175,7 @@ export const cities: City[] = [
     nearbyCities: ["Tomball", "Cypress", "Magnolia"],
     heroImageId: "photo-1480074568708-e7b720bb3f09",
     description: "Hockley is a quiet rural community in northwest Harris County offering spacious lots, newer subdivision development, and an easy commute to Houston and Cypress.",
-    metaDescription: "A Plumber Service offers plumbing and remodeling in Hockley, TX (zip 77447). Licensed, insured, and trusted. Call (713) 955-6664 for a free estimate.",
+    metaDescription: "A Plumber Service offers plumbing services in Hockley, TX (zip 77447). Licensed, insured, and trusted. Call (713) 955-6664 for a free estimate.",
   },
   {
     name: "The Woodlands",
@@ -191,7 +191,7 @@ export const cities: City[] = [
     nearbyCities: ["Spring", "Conroe", "Tomball"],
     heroImageId: "photo-1600596542815-ffad4c1539a9",
     description: "The Woodlands is a world-class master-planned community offering luxury living among 28,000 acres of preserved forest, top-rated schools, and unparalleled amenities.",
-    metaDescription: "A Plumber Service provides premium plumbing and home remodeling in The Woodlands, TX. Serving all villages. Call (713) 955-6664 for a free estimate.",
+    metaDescription: "A Plumber Service provides premium plumbing services in The Woodlands, TX. Serving all villages. Call (713) 955-6664 for a free estimate.",
   },
   {
     name: "Conroe",
@@ -207,7 +207,7 @@ export const cities: City[] = [
     nearbyCities: ["The Woodlands", "Spring", "Magnolia"],
     heroImageId: "photo-1570129477492-45c003edd2be",
     description: "Conroe is the county seat of Montgomery County and one of the fastest-growing cities in Texas, offering lakeside living, cultural amenities, and thriving new communities.",
-    metaDescription: "Expert plumbing and home remodeling in Conroe, TX. A Plumber Service serves all Conroe zip codes. Call (713) 955-6664 for same-day estimates.",
+    metaDescription: "Expert plumbing services in Conroe, TX. A Plumber Service serves all Conroe zip codes. Call (713) 955-6664 for same-day estimates.",
   },
   {
     name: "Porter",
@@ -223,7 +223,7 @@ export const cities: City[] = [
     nearbyCities: ["Humble", "Kingwood", "The Woodlands"],
     heroImageId: "photo-1480074568708-e7b720bb3f09",
     description: "Porter is a rapidly growing community in Montgomery County, home to the Valley Ranch master-planned development and offering suburban living with easy freeway access to Houston.",
-    metaDescription: "A Plumber Service provides plumbing and remodeling in Porter, TX (zip 77365). Fast, reliable service. Call (713) 955-6664 today.",
+    metaDescription: "A Plumber Service provides plumbing services in Porter, TX (zip 77365). Fast, reliable service. Call (713) 955-6664 today.",
   },
   {
     name: "Humble",
@@ -239,7 +239,7 @@ export const cities: City[] = [
     nearbyCities: ["Kingwood", "Atascocita", "Porter"],
     heroImageId: "photo-1600596542815-ffad4c1539a9",
     description: "Humble is a welcoming community in northeast Harris County with deep roots and a bright future, offering beautiful neighborhoods near Lake Houston and top-rated Humble ISD schools.",
-    metaDescription: "A Plumber Service offers expert plumbing and home remodeling in Humble, TX. Serving zip codes 77338, 77339, 77346. Call (713) 955-6664 for a free estimate.",
+    metaDescription: "A Plumber Service offers expert plumbing services in Humble, TX. Serving zip codes 77338, 77339, 77346. Call (713) 955-6664 for a free estimate.",
   },
   {
     name: "Kingwood",
@@ -255,7 +255,7 @@ export const cities: City[] = [
     nearbyCities: ["Humble", "Atascocita", "Porter"],
     heroImageId: "photo-1570129477492-45c003edd2be",
     description: "Kingwood, known as the 'Livable Forest,' is a prestigious master-planned community offering shaded trails, top schools, and stunning homes amid a lush wooded environment.",
-    metaDescription: "A Plumber Service serves Kingwood, TX with expert plumbing and home remodeling. Serving all Kingwood zip codes. Call (713) 955-6664 today.",
+    metaDescription: "A Plumber Service serves Kingwood, TX with expert plumbing services. Serving all Kingwood zip codes. Call (713) 955-6664 today.",
   },
   {
     name: "Atascocita",
@@ -271,7 +271,7 @@ export const cities: City[] = [
     nearbyCities: ["Humble", "Kingwood", "Channelview"],
     heroImageId: "photo-1480074568708-e7b720bb3f09",
     description: "Atascocita is a large unincorporated community in northeast Harris County, offering beautiful waterfront properties on Lake Houston, established neighborhoods, and strong schools.",
-    metaDescription: "A Plumber Service provides plumbing and remodeling in Atascocita, TX (77044, 77346). Expert local service. Call (713) 955-6664 for a free estimate.",
+    metaDescription: "A Plumber Service provides plumbing services in Atascocita, TX (77044, 77346). Expert local service. Call (713) 955-6664 for a free estimate.",
   },
   {
     name: "Channelview",
@@ -287,7 +287,7 @@ export const cities: City[] = [
     nearbyCities: ["Baytown", "Deer Park", "Pasadena"],
     heroImageId: "photo-1600596542815-ffad4c1539a9",
     description: "Channelview is a close-knit community in east Harris County with a strong industrial heritage, hardworking families, and affordable housing options near the Houston Ship Channel.",
-    metaDescription: "A Plumber Service offers plumbing and home remodeling in Channelview, TX (zip 77530). Trusted local experts. Call (713) 955-6664 today.",
+    metaDescription: "A Plumber Service offers plumbing services in Channelview, TX (zip 77530). Trusted local experts. Call (713) 955-6664 today.",
   },
   {
     name: "Baytown",
@@ -303,7 +303,7 @@ export const cities: City[] = [
     nearbyCities: ["La Porte", "Deer Park", "Channelview"],
     heroImageId: "photo-1570129477492-45c003edd2be",
     description: "Baytown is a dynamic city on Galveston Bay offering waterfront living, a rich industrial history, and a growing range of residential neighborhoods from the affordable to the upscale.",
-    metaDescription: "Expert plumbing and home remodeling in Baytown, TX. A Plumber Service serves zip codes 77520, 77521, 77522, 77523. Call (713) 955-6664.",
+    metaDescription: "Expert plumbing services in Baytown, TX. A Plumber Service serves zip codes 77520, 77521, 77522, 77523. Call (713) 955-6664.",
   },
   {
     name: "La Porte",
@@ -319,7 +319,7 @@ export const cities: City[] = [
     nearbyCities: ["Baytown", "Deer Park", "Seabrook"],
     heroImageId: "photo-1480074568708-e7b720bb3f09",
     description: "La Porte is a vibrant waterfront city on Galveston Bay in southeastern Harris County, offering excellent schools, waterfront living, and convenient access to NASA and the Bay Area.",
-    metaDescription: "A Plumber Service provides plumbing and remodeling in La Porte, TX (77571, 77572). Quality work guaranteed. Call (713) 955-6664 for a free estimate.",
+    metaDescription: "A Plumber Service provides plumbing services in La Porte, TX (77571, 77572). Quality work guaranteed. Call (713) 955-6664 for a free estimate.",
   },
   {
     name: "Deer Park",
@@ -335,7 +335,7 @@ export const cities: City[] = [
     nearbyCities: ["Pasadena", "Baytown", "La Porte"],
     heroImageId: "photo-1600596542815-ffad4c1539a9",
     description: "Deer Park is a proud, patriotic city in Harris County near the San Jacinto Battleground, offering a strong sense of community, established neighborhoods, and excellent city services.",
-    metaDescription: "A Plumber Service offers expert plumbing and home remodeling in Deer Park, TX (zip 77536). Licensed and insured. Call (713) 955-6664 today.",
+    metaDescription: "A Plumber Service offers expert plumbing services in Deer Park, TX (zip 77536). Licensed and insured. Call (713) 955-6664 today.",
   },
   {
     name: "Pasadena",
@@ -351,7 +351,7 @@ export const cities: City[] = [
     nearbyCities: ["Deer Park", "La Porte", "Pearland"],
     heroImageId: "photo-1570129477492-45c003edd2be",
     description: "Pasadena is a major city in the Houston metro area with a strong working-class heritage, diverse communities, and excellent affordability, making it a popular choice for families.",
-    metaDescription: "A Plumber Service provides plumbing and home remodeling in Pasadena, TX. Serving all Pasadena zip codes. Call (713) 955-6664 for a free estimate.",
+    metaDescription: "A Plumber Service provides plumbing services in Pasadena, TX. Serving all Pasadena zip codes. Call (713) 955-6664 for a free estimate.",
   },
   {
     name: "Pearland",
@@ -367,7 +367,7 @@ export const cities: City[] = [
     nearbyCities: ["Friendswood", "Missouri City", "League City"],
     heroImageId: "photo-1480074568708-e7b720bb3f09",
     description: "Pearland is one of the fastest-growing cities in the country, offering beautiful planned communities, top-rated schools, and a thriving dining and retail scene just south of Houston.",
-    metaDescription: "Expert plumbing and home remodeling in Pearland, TX. A Plumber Service serves zip codes 77581, 77584, 77588. Call (713) 955-6664 today.",
+    metaDescription: "Expert plumbing services in Pearland, TX. A Plumber Service serves zip codes 77581, 77584, 77588. Call (713) 955-6664 today.",
   },
   {
     name: "Friendswood",
@@ -383,7 +383,7 @@ export const cities: City[] = [
     nearbyCities: ["Pearland", "League City", "Webster"],
     heroImageId: "photo-1600596542815-ffad4c1539a9",
     description: "Friendswood is a charming, safe city with a Quaker heritage, offering mature trees, excellent schools, and close-knit neighborhoods that feel like home from day one.",
-    metaDescription: "A Plumber Service provides plumbing and home remodeling in Friendswood, TX (77546, 77549). Call (713) 955-6664 for a free estimate from your local pros.",
+    metaDescription: "A Plumber Service provides plumbing services in Friendswood, TX (77546, 77549). Call (713) 955-6664 for a free estimate from your local pros.",
   },
   {
     name: "League City",
@@ -399,7 +399,7 @@ export const cities: City[] = [
     nearbyCities: ["Webster", "Friendswood", "Pearland"],
     heroImageId: "photo-1570129477492-45c003edd2be",
     description: "League City is a prestigious Clear Lake community offering waterfront living, top-ranked schools, and stunning marinas, attracting NASA professionals and families alike.",
-    metaDescription: "A Plumber Service offers plumbing and home remodeling in League City, TX. Serving 77573 and 77574. Call (713) 955-6664 for expert local service.",
+    metaDescription: "A Plumber Service offers plumbing services in League City, TX. Serving 77573 and 77574. Call (713) 955-6664 for expert local service.",
   },
   {
     name: "Webster",
@@ -415,7 +415,7 @@ export const cities: City[] = [
     nearbyCities: ["League City", "Friendswood", "Pearland"],
     heroImageId: "photo-1480074568708-e7b720bb3f09",
     description: "Webster is a convenient Bay Area city adjacent to Space Center Houston, offering diverse dining, retail, and residential options for the NASA community and beyond.",
-    metaDescription: "A Plumber Service provides plumbing and remodeling in Webster, TX (zip 77598). Call (713) 955-6664 — trusted local experts near the Space Center.",
+    metaDescription: "A Plumber Service provides plumbing services in Webster, TX (zip 77598). Call (713) 955-6664 — trusted local experts near the Space Center.",
   },
   {
     name: "Bellaire",
@@ -431,7 +431,7 @@ export const cities: City[] = [
     nearbyCities: ["West University Place", "River Oaks", "Memorial"],
     heroImageId: "photo-1600596542815-ffad4c1539a9",
     description: "Bellaire is an exclusive enclave within the Houston loop, offering top-ranked schools, large custom homes, and a tight-knit community feel just minutes from the Texas Medical Center.",
-    metaDescription: "A Plumber Service provides luxury plumbing and home remodeling in Bellaire, TX (zip 77401). Expert work for discerning homeowners. Call (713) 955-6664.",
+    metaDescription: "A Plumber Service provides luxury plumbing services in Bellaire, TX (zip 77401). Expert work for discerning homeowners. Call (713) 955-6664.",
   },
   {
     name: "West University Place",
@@ -447,7 +447,7 @@ export const cities: City[] = [
     nearbyCities: ["Bellaire", "River Oaks", "Southside Place"],
     heroImageId: "photo-1570129477492-45c003edd2be",
     description: "West University Place, affectionately called 'West U,' is one of the most desirable addresses in Houston, offering stunning homes, walkable streets, and proximity to Rice University.",
-    metaDescription: "A Plumber Service offers premium plumbing and remodeling in West University Place, TX (zip 77005). Trusted by the city's finest homeowners. Call (713) 955-6664.",
+    metaDescription: "A Plumber Service offers premium plumbing services in West University Place, TX (zip 77005). Trusted by the city's finest homeowners. Call (713) 955-6664.",
   },
   {
     name: "Southside Place",
@@ -463,7 +463,7 @@ export const cities: City[] = [
     nearbyCities: ["West University Place", "Bellaire", "River Oaks"],
     heroImageId: "photo-1480074568708-e7b720bb3f09",
     description: "Southside Place is a charming small city within Houston, known for its beautifully maintained homes, tree-lined streets, and an extraordinarily engaged community.",
-    metaDescription: "A Plumber Service serves Southside Place, TX (zip 77005) with expert plumbing and home remodeling. Call (713) 955-6664 for a free estimate.",
+    metaDescription: "A Plumber Service serves Southside Place, TX (zip 77005) with expert plumbing services. Call (713) 955-6664 for a free estimate.",
   },
   {
     name: "River Oaks",
@@ -479,7 +479,7 @@ export const cities: City[] = [
     nearbyCities: ["Memorial", "West University Place", "Bellaire"],
     heroImageId: "photo-1600596542815-ffad4c1539a9",
     description: "River Oaks is Houston's most prestigious neighborhood, featuring magnificent estates, world-class dining and retail, and a storied history among Houston's elite families.",
-    metaDescription: "A Plumber Service provides luxury plumbing and home remodeling in River Oaks, TX (zip 77019). Premium craftsmanship for Houston's finest homes. Call (713) 955-6664.",
+    metaDescription: "A Plumber Service provides luxury plumbing services in River Oaks, TX (zip 77019). Premium craftsmanship for Houston's finest homes. Call (713) 955-6664.",
   },
   {
     name: "Memorial",
@@ -495,7 +495,7 @@ export const cities: City[] = [
     nearbyCities: ["River Oaks", "Katy", "Bellaire"],
     heroImageId: "photo-1570129477492-45c003edd2be",
     description: "Memorial is a prestigious corridor west of Houston featuring the Memorial Villages, sprawling parkland, and some of the region's most coveted real estate and top-ranked schools.",
-    metaDescription: "A Plumber Service offers premium plumbing and home remodeling in Memorial, TX. Serving zip codes 77024, 77079, 77080. Call (713) 955-6664 for a free estimate.",
+    metaDescription: "A Plumber Service offers premium plumbing services in Memorial, TX. Serving zip codes 77024, 77079, 77080. Call (713) 955-6664 for a free estimate.",
   },
 ];
 

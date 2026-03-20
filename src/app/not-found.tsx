@@ -11,7 +11,7 @@ export default function NotFound() {
           Page Not Found
         </h1>
         <p className="text-gray-600 mb-10">
-          Sorry, the page you&apos;re looking for doesn&apos;t exist. But we&apos;re still here to help with your plumbing and remodeling needs!
+          Sorry, the page you&apos;re looking for doesn&apos;t exist. But we&apos;re still here to help with all your plumbing needs!
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Link

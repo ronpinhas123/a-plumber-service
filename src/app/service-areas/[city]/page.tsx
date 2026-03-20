@@ -42,19 +42,19 @@ export default function CityPage({ params }: PageProps) {
   const cityFAQs = [
     {
       question: `Do you serve all of ${city.name}'s zip codes?`,
-      answer: `Yes! A Plumber Service covers all of ${city.name}'s zip codes including ${city.zipCodes.join(", ")}. Whether you're in ${city.neighborhoods[0] || city.name} or any other part of ${city.name}, we come to you for a free in-home estimate.`,
+      answer: `Yes! A Plumber Service covers all of ${city.name}'s zip codes including ${city.zipCodes.join(", ")}. Whether you're in ${city.neighborhoods[0] || city.name} or any other part of ${city.name}, we come to you for a free estimate.`,
     },
     {
       question: `How quickly can you respond to a plumbing emergency in ${city.name}?`,
-      answer: `We strive for same-day emergency plumbing response in ${city.name}. For non-emergency plumbing and remodeling inquiries, we typically schedule free estimates within 1–2 business days. Call us at ${SITE_CONFIG.phoneFormatted} for immediate assistance.`,
+      answer: `We strive for same-day emergency plumbing response in ${city.name}. For non-emergency plumbing inquiries, we typically schedule free estimates within 1–2 business days. Call us at ${SITE_CONFIG.phoneFormatted} any time — 24/7 for emergencies.`,
     },
     {
-      question: `What permits are required for remodeling projects in ${city.name}?`,
-      answer: `Permit requirements in ${city.name} (${city.county}) vary by project type. Kitchen remodels with plumbing changes, bathroom renovations, home additions, and structural modifications typically require permits. A Plumber Service handles all permitting as part of our standard service — you never need to deal with the permit office yourself.`,
+      question: `What permits are required for plumbing work in ${city.name}?`,
+      answer: `Permit requirements in ${city.name} (${city.county}) vary by project type. Water heater replacements, sewer line work, and major plumbing repairs typically require permits. A Plumber Service handles all permitting as part of our standard service — you never need to deal with the permit office yourself.`,
     },
     {
-      question: `What home remodeling services do you offer in ${city.name}, TX?`,
-      answer: `In ${city.name}, TX, A Plumber Service offers kitchen remodeling, bathroom remodeling, flooring installation, home additions, and outdoor living space construction. We also provide all associated plumbing services. Contact us at ${SITE_CONFIG.phoneFormatted} for a free ${city.name} estimate.`,
+      question: `What plumbing services do you offer in ${city.name}, TX?`,
+      answer: `In ${city.name}, TX, A Plumber Service offers emergency plumbing, drain cleaning, water heater installation and repair, leak detection and repair, and sewer & pipe services. Contact us at ${SITE_CONFIG.phoneFormatted} for a free ${city.name} estimate.`,
     },
   ];
 
@@ -74,13 +74,13 @@ export default function CityPage({ params }: PageProps) {
 
       {/* Hero */}
       <HeroSection
-        headline={`Plumber & Home Remodeling in ${city.name}, TX`}
-        subheadline={`Expert plumbing and home remodeling services in ${city.name}, ${city.county}. Licensed, insured, and trusted by ${city.name} homeowners for over 20 years.`}
+        headline={`Licensed Plumber in ${city.name}, TX`}
+        subheadline={`Expert plumbing services in ${city.name}, ${city.county}. Emergency plumbing, drain cleaning, water heaters, leak detection & sewer repairs. Licensed, insured, and trusted since 2004.`}
         imageId={city.heroImageId}
-        imageAlt={`Professional plumbing and remodeling services in ${city.name}, TX`}
+        imageAlt={`Professional plumbing services in ${city.name}, TX`}
         minHeight="min-h-[65vh]"
         overlay={65}
-        badges={[`Serving ${city.name} Since 2004`, "Licensed & Insured", "Free Estimates"]}
+        badges={[`Serving ${city.name} Since 2004`, "Licensed & Insured", "24/7 Emergency Service"]}
       />
 
       {/* Breadcrumbs */}
@@ -100,7 +100,7 @@ export default function CityPage({ params }: PageProps) {
             <SectionHeading
               eyebrow={`${city.name}, TX`}
               title={`Our Services in ${city.name}, Texas`}
-              subtitle={`A Plumber Service provides full-service plumbing and home remodeling throughout ${city.name} and surrounding ${city.county} communities.`}
+              subtitle={`A Plumber Service provides full-service plumbing throughout ${city.name} and surrounding ${city.county} communities.`}
             />
           </div>
 
@@ -189,40 +189,35 @@ export default function CityPage({ params }: PageProps) {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto prose-content">
-            <h2>Serving {city.name} and Surrounding Areas in {city.county}</h2>
+            <h2>Plumbing Services in {city.name} and {city.county}</h2>
             <p>{city.description}</p>
             <p>
-              Located approximately {city.distanceFromHouston} of downtown Houston, {city.name} is home to thriving residential communities including {city.neighborhoods.join(", ")}. A Plumber Service has been serving {city.name} homeowners with expert plumbing and remodeling services for over two decades.
+              Located approximately {city.distanceFromHouston} of downtown Houston, {city.name} is home to thriving residential communities including {city.neighborhoods.join(", ")}. A Plumber Service has been serving {city.name} homeowners with licensed plumbing services for over two decades.
             </p>
 
             <h3>Zip Codes We Serve in {city.name}, TX</h3>
             <p>
-              Our team serves all {city.name} zip codes, including: <strong>{city.zipCodes.join(", ")}</strong>. Whether you&apos;re in a newer master-planned community or an established neighborhood, A Plumber Service comes to you for a free estimate.
+              Our licensed plumbers serve all {city.name} zip codes, including: <strong>{city.zipCodes.join(", ")}</strong>. Whether you&apos;re in a newer master-planned community or an established neighborhood, A Plumber Service comes to you for a free estimate.
             </p>
 
-            <h3>Nearby Neighborhoods and Landmarks</h3>
+            <h3>Nearby Neighborhoods and Areas</h3>
             <p>
-              We work throughout {city.name} and nearby areas including the communities surrounding {city.landmarks.join(", ")}. Our team is familiar with local building codes, permit requirements, and the unique construction characteristics of homes in {city.county}.
+              We provide plumbing services throughout {city.name} and nearby areas including communities surrounding {city.landmarks.join(", ")}. Our team is familiar with local building codes, permit requirements, and the plumbing characteristics common in {city.county} homes.
             </p>
 
-            <h3>Recent Projects in {city.name}, TX</h3>
+            <h3>Emergency Plumbing in {city.name}</h3>
             <p>
-              Our team has completed hundreds of projects in {city.name}, from kitchen and bathroom remodels in established neighborhoods to new flooring installations and outdoor living spaces in newer developments. We bring the same level of craftsmanship and attention to detail to every {city.name} home we serve.
+              Plumbing emergencies can happen any time. A Plumber Service provides 24/7 emergency plumbing response in {city.name}, TX — burst pipes, sewage backups, water heater failures, and major leaks. Call {SITE_CONFIG.phoneFormatted} any time for immediate dispatch.
             </p>
 
-            <h3>Plumbing Services in {city.name}</h3>
+            <h3>Common Plumbing Services in {city.name}, TX</h3>
             <p>
-              As licensed plumbers serving {city.name} TX, we handle everything from routine plumbing maintenance and emergency repairs to complete new plumbing installations for home additions and remodels. Our plumbing expertise is what sets A Plumber Service apart from other remodeling contractors in {city.county} — we handle it all in-house.
-            </p>
-
-            <h3>Home Remodeling in {city.name}, TX</h3>
-            <p>
-              {city.name} homeowners trust A Plumber Service for kitchen remodeling, bathroom renovations, luxury vinyl plank and hardwood flooring installation, home additions, and outdoor living spaces. Our comprehensive service list means you need just one contractor for your entire project, simplifying the process and ensuring consistent quality throughout.
+              {city.name} homeowners trust A Plumber Service for emergency plumbing, professional drain cleaning, water heater installation and repair, slab leak detection and repair, and complete sewer line services. Our licensed plumbers handle every plumbing need — from routine maintenance to complex repairs — with the skill and transparency you deserve.
             </p>
 
             <h3>Contact A Plumber Service in {city.name}</h3>
             <p>
-              Ready to start your {city.name} home improvement project? Contact A Plumber Service today at <a href={SITE_CONFIG.phoneHref}>{SITE_CONFIG.phoneFormatted}</a> or email us at <a href={`mailto:${SITE_CONFIG.email}`}>{SITE_CONFIG.email}</a>. We offer free in-home estimates with no obligation, and we&apos;ll come to you anywhere in {city.name} or surrounding {city.county} communities.
+              Need a plumber in {city.name}? Contact A Plumber Service today at <a href={SITE_CONFIG.phoneHref}>{SITE_CONFIG.phoneFormatted}</a> or email us at <a href={`mailto:${SITE_CONFIG.email}`}>{SITE_CONFIG.email}</a>. We offer free estimates with no obligation, and we&apos;ll come to you anywhere in {city.name} or surrounding {city.county} communities.
             </p>
           </div>
         </div>
@@ -272,8 +267,8 @@ export default function CityPage({ params }: PageProps) {
       {/* FAQ */}
       <FAQSection
         faqs={cityFAQs}
-        title={`FAQ — ${city.name}, TX Plumbing & Remodeling`}
-        subtitle={`Common questions from ${city.name} homeowners about our services.`}
+        title={`FAQ — ${city.name}, TX Plumbing Services`}
+        subtitle={`Common questions from ${city.name} homeowners about our plumbing services.`}
       />
 
       {/* Nearby Cities */}
@@ -307,8 +302,8 @@ export default function CityPage({ params }: PageProps) {
       )}
 
       <CTABanner
-        title={`Ready to Start Your ${city.name} Home Project?`}
-        subtitle={`Get a free estimate from A Plumber Service — ${city.name}'s trusted plumbing and home remodeling experts.`}
+        title={`Need a Plumber in ${city.name}?`}
+        subtitle={`Get a free estimate from A Plumber Service — ${city.name}'s trusted licensed plumbing experts.`}
       />
     </>
   );

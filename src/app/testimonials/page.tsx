@@ -21,7 +21,7 @@ export default function TestimonialsPage() {
         headline="Houston Homeowners Love A Plumber Service"
         subheadline={`Over 500 five-star reviews from homeowners across 32 Houston-area communities. See what your neighbors are saying.`}
         imageId="photo-1560185007-cde436f6a4d0"
-        imageAlt="Happy Houston homeowners after home remodeling by A Plumber Service"
+        imageAlt="Happy Houston homeowners after plumbing service by A Plumber Service"
         minHeight="min-h-[55vh]"
         overlay={65}
         badges={[`${SITE_CONFIG.rating}/5 Stars`, `${SITE_CONFIG.reviewCount} Reviews`, "32 Cities Served"]}

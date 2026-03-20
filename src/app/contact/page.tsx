@@ -23,7 +23,7 @@ export default function ContactPage() {
           </h1>
           <div className="w-16 h-0.5 bg-gold mx-auto mb-5" />
           <p className="text-white/70 text-lg max-w-2xl mx-auto">
-            Ready to start your project? Get a free estimate from Houston&apos;s most trusted plumbing and home remodeling team. We respond within 1–2 business hours.
+            Ready to start your project? Get a free estimate from Houston&apos;s most trusted plumbing team. We respond within 1–2 business hours.
           </p>
         </div>
       </div>

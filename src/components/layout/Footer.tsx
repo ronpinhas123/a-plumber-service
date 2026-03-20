@@ -23,7 +23,7 @@ export default function Footer() {
               <span className="text-gold text-sm font-sans tracking-wider uppercase">Houston, Texas</span>
             </Link>
             <p className="text-white/60 text-sm leading-relaxed mb-6">
-              Houston&apos;s trusted plumbing and home remodeling experts since {SITE_CONFIG.founded}. Licensed, insured, and committed to excellence across 32 communities.
+              Houston&apos;s trusted licensed plumbers since {SITE_CONFIG.founded}. Emergency plumbing, drain cleaning, water heaters, leak detection & sewer services across 32 communities.
             </p>
 
             {/* Rating */}

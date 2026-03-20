@@ -1,16 +1,16 @@
 import Link from "next/link";
-import { UtensilsCrossed, Bath, Square, Home, Trees, ArrowRight } from "lucide-react";
+import { Zap, Droplets, Flame, Search, Wrench, ArrowRight } from "lucide-react";
 import { services } from "@/data/services";
 import SectionHeading from "@/components/ui/SectionHeading";
 import OptimizedImage from "@/components/ui/OptimizedImage";
 import { unsplashUrl } from "@/lib/images";
 
 const iconMap: Record<string, React.FC<{ className?: string }>> = {
-  UtensilsCrossed,
-  Bath,
-  Square,
-  Home,
-  Trees,
+  Zap,
+  Droplets,
+  Flame,
+  Search,
+  Wrench,
 };
 
 export default function ServicesGrid() {
@@ -20,14 +20,14 @@ export default function ServicesGrid() {
         <div className="mb-14">
           <SectionHeading
             eyebrow="What We Do"
-            title="Expert Home Remodeling & Plumbing Services"
-            subtitle="From complete kitchen transformations to stunning outdoor living spaces, A Plumber Service delivers exceptional craftsmanship across every project type."
+            title="Professional Plumbing Services in Houston"
+            subtitle="From emergency repairs to complete pipe replacements, A Plumber Service delivers expert plumbing solutions for every Houston homeowner."
           />
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service) => {
-            const Icon = iconMap[service.icon] ?? Home;
+            const Icon = iconMap[service.icon] ?? Wrench;
             return (
               <Link
                 key={service.slug}

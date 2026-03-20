@@ -18,7 +18,7 @@ export default function ServiceAreasPage() {
 
       <HeroSection
         headline="Serving Houston and 32 Surrounding Communities"
-        subheadline="A Plumber Service brings expert plumbing and home remodeling to neighborhoods across the entire greater Houston metro area. Find your city below."
+        subheadline="A Plumber Service brings expert plumbing services to neighborhoods across the entire greater Houston metro area. Find your city below."
         imageId="photo-1605146769289-440113cc3d00"
         imageAlt="Greater Houston Texas service area map"
         minHeight="min-h-[60vh]"
@@ -37,8 +37,8 @@ export default function ServiceAreasPage() {
           <div className="mb-14">
             <SectionHeading
               eyebrow="Our Coverage"
-              title="Plumbing & Remodeling Across Greater Houston"
-              subtitle="No matter where you are in the Houston metro area, A Plumber Service is your local expert. Click your city to learn more about our services in your community."
+              title="Plumbing Services Across Greater Houston"
+              subtitle="No matter where you are in the Houston metro area, A Plumber Service is your local licensed plumber. Click your city to learn more about our services in your community."
             />
           </div>
 

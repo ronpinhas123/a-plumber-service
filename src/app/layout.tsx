@@ -22,11 +22,11 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_CONFIG.url),
   title: {
-    default: `Plumber & Home Remodeling Houston TX | ${SITE_CONFIG.name}`,
+    default: `Plumber Houston TX | ${SITE_CONFIG.name}`,
     template: `%s | ${SITE_CONFIG.name}`,
   },
-  description: `Houston's trusted plumbing and home remodeling experts. Kitchen, bathroom, flooring, home additions & outdoor living. Serving 32 cities. Call ${SITE_CONFIG.phoneFormatted}.`,
-  keywords: ["plumber Houston TX", "home remodeling Houston", "kitchen remodeling Houston", "bathroom remodeling Houston", "flooring installation Houston"],
+  description: `Houston's trusted licensed plumbers. Emergency plumbing, drain cleaning, water heater services, leak detection & sewer repairs. Serving 32 cities. Call ${SITE_CONFIG.phoneFormatted}.`,
+  keywords: ["plumber Houston TX", "emergency plumber Houston", "drain cleaning Houston", "water heater repair Houston", "leak detection Houston"],
   authors: [{ name: SITE_CONFIG.name }],
   creator: SITE_CONFIG.name,
   publisher: SITE_CONFIG.name,

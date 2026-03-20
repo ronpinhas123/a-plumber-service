@@ -40,10 +40,10 @@ export default function AboutPage() {
       <BreadcrumbSchema items={[{ name: "About Us", href: "/about" }]} />
 
       <HeroSection
-        headline="Houston's Home Remodeling Experts Since 2004"
-        subheadline="Two decades of building trust, one project at a time. A Plumber Service is Houston's most respected plumbing and home remodeling company."
+        headline="Houston's Licensed Plumbers Since 2004"
+        subheadline="Two decades of solving plumbing problems, one call at a time. A Plumber Service is Houston's most trusted licensed plumbing company."
         imageId="photo-1581578731548-c64695cc6952"
-        imageAlt="A Plumber Service team of professional plumbers and remodelers in Houston TX"
+        imageAlt="A Plumber Service team of licensed plumbers in Houston TX"
         minHeight="min-h-[65vh]"
         overlay={65}
         badges={["20+ Years in Business", "5,000+ Projects", "4.9/5 Stars"]}
@@ -68,13 +68,13 @@ export default function AboutPage() {
 
               <div className="space-y-4 text-gray-700 leading-relaxed">
                 <p>
-                  A Plumber Service was founded in Houston, Texas in 2004 with a simple mission: provide honest, expert plumbing and home remodeling services to Houston-area homeowners at fair prices. Twenty years later, that mission is alive in every project we complete.
+                  A Plumber Service was founded in Houston, Texas in 2004 with a simple mission: provide honest, expert plumbing services to Houston-area homeowners at fair prices. Twenty years later, that mission drives everything we do.
                 </p>
                 <p>
-                  What started as a plumbing company has grown into one of Houston&apos;s most comprehensive home improvement contractors. Our expertise in plumbing remains at our core — but we&apos;ve expanded to offer full kitchen and bathroom remodeling, flooring installation, home additions, and outdoor living construction, all handled by our in-house team of skilled craftsmen.
+                  From emergency plumbing response to water heater installations, drain cleaning to slab leak repair, sewer line inspections to complete repiping — our licensed plumbers handle every aspect of residential plumbing with the skill and integrity Houston homeowners deserve.
                 </p>
                 <p>
-                  We&apos;ve now served over 5,000 Houston-area homeowners across 32 communities. Our 4.9-star rating across 500+ reviews is the result of thousands of satisfied families who trusted us with their most important investment — their home.
+                  We&apos;ve now served over 5,000 Houston-area homeowners across 32 communities. Our 4.9-star rating across 500+ reviews is the result of thousands of satisfied families who trusted us with their home&apos;s most critical systems.
                 </p>
                 <p>
                   Based at 2406 Wheeler Ave in Houston, TX, we&apos;re deeply rooted in this community. When you call A Plumber Service, you&apos;re calling your Houston neighbors — people who care about this city as much as you do.

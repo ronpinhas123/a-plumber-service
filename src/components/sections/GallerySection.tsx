@@ -5,25 +5,25 @@ import Link from "next/link";
 
 const galleryItems = [
   {
-    before: "photo-1556909172-54557c7e4fb7",
-    after: "photo-1556909114-f6e7ad7d3136",
-    label: "Kitchen Remodel",
+    before: "photo-1504307651254-35680f356dfd",
+    after: "photo-1504307651254-35680f356dfd",
+    label: "Emergency Pipe Repair",
     city: "Katy, TX",
-    href: "/services/kitchen-remodeling",
+    href: "/services/emergency-plumbing",
   },
   {
-    before: "photo-1552321554-5fefe8c9ef14",
-    after: "photo-1552321554-5fefe8c9ef14",
-    label: "Bathroom Renovation",
-    city: "The Woodlands, TX",
-    href: "/services/bathroom-remodeling",
+    before: "photo-1581578731548-c64695cc6952",
+    after: "photo-1581578731548-c64695cc6952",
+    label: "Drain Cleaning",
+    city: "Spring, TX",
+    href: "/services/drain-cleaning",
   },
   {
-    before: "photo-1558618666-fcd25c85cd64",
-    after: "photo-1558618666-fcd25c85cd64",
-    label: "Flooring Installation",
+    before: "photo-1504307651254-35680f356dfd",
+    after: "photo-1504307651254-35680f356dfd",
+    label: "Water Heater Installation",
     city: "Sugar Land, TX",
-    href: "/services/flooring-installation",
+    href: "/services/water-heater-services",
   },
 ];
 
@@ -35,7 +35,7 @@ export default function GallerySection() {
           <SectionHeading
             eyebrow="Our Work"
             title="Recent Project Transformations"
-            subtitle="Every project tells a story of transformation. See how A Plumber Service turns Houston homes into something truly remarkable."
+            subtitle="See examples of our plumbing work across Houston — from emergency repairs to full system installations."
           />
         </div>
 
@@ -74,7 +74,7 @@ export default function GallerySection() {
             href="/contact"
             className="inline-flex items-center gap-2 text-gold hover:text-gold-dark font-semibold transition-colors text-sm"
           >
-            Start Your Project Today →
+            Get a Free Plumbing Estimate →
           </Link>
         </div>
       </div>

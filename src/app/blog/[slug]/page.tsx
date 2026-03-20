@@ -105,7 +105,7 @@ export default function BlogPostPage({ params }: PageProps) {
               <div className="mt-10 bg-navy rounded-2xl p-8 text-center">
                 <h3 className="font-serif text-xl font-bold text-white mb-3">Ready to Get Started?</h3>
                 <p className="text-white/70 text-sm mb-5">
-                  Get a free estimate from A Plumber Service — Houston&apos;s trusted plumbing and remodeling experts.
+                  Get a free estimate from A Plumber Service — Houston&apos;s trusted licensed plumbers.
                 </p>
                 <Link
                   href="/contact"

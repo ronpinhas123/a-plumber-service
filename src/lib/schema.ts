@@ -50,13 +50,13 @@ export function buildLocalBusinessSchema(cityOverride?: City) {
     ],
     hasOfferCatalog: {
       "@type": "OfferCatalog",
-      name: "Plumbing & Home Remodeling Services",
+      name: "Plumbing Services",
       itemListElement: [
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Kitchen Remodeling" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Bathroom Remodeling" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Flooring Installation" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Home Additions" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Outdoor Living" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Emergency Plumbing" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Drain Cleaning" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Water Heater Services" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Leak Detection & Repair" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Sewer & Pipe Services" } },
       ],
     },
     aggregateRating: {

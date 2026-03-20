@@ -22,10 +22,10 @@ export default function BlogPage() {
       <BreadcrumbSchema items={[{ name: "Blog", href: "/blog" }]} />
 
       <HeroSection
-        headline="Plumbing & Remodeling Insights for Houston Homeowners"
-        subheadline="Expert tips, cost guides, and home improvement advice from A Plumber Service — Houston's trusted plumbing and remodeling professionals."
+        headline="Plumbing Tips & Advice for Houston Homeowners"
+        subheadline="Expert tips, cost guides, and plumbing advice from A Plumber Service — Houston's trusted licensed plumbers."
         imageId="photo-1484154218962-a197022b5858"
-        imageAlt="Plumbing and home remodeling blog for Houston homeowners"
+        imageAlt="Plumbing tips and advice for Houston homeowners"
         minHeight="min-h-[55vh]"
         overlay={65}
         badges={["Expert Advice", "Houston TX", "Free Guides"]}
@@ -43,7 +43,7 @@ export default function BlogPage() {
             <SectionHeading
               eyebrow="Our Blog"
               title="Expert Home Improvement Advice"
-              subtitle="Houston homeowners trust A Plumber Service for honest advice on plumbing, remodeling costs, and home improvement decisions."
+              subtitle="Houston homeowners trust A Plumber Service for honest advice on plumbing repairs, maintenance, and protecting their home's plumbing system."
             />
           </div>
 
